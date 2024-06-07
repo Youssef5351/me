@@ -60,7 +60,7 @@ const SignUp = () => {
         }
 
         try {
-            const response = await axios.post('http://localhost:5000/api/signup', formData);
+            const response = await axios.post('me1-p3t7i6tgb-beauty-tteam.vercel.app', formData);
             if (response.data.success) {
                 setSuccess('ok');
                 setError('');
