@@ -8,7 +8,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'me-five-ebon.vercel.app'
+  origin: 'https://me-five-ebon.vercel.app'
 }));
 
 
