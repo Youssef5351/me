@@ -7,7 +7,9 @@ const app = express();
 
 
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+  origin: 'me-five-ebon.vercel.app'
+}));
 
 
 mongoose.connect(process.env.MONGDB_URI, {
