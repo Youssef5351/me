@@ -31,7 +31,7 @@ const App = () => {
               </div>
             }
           />
-          <Route path="/https://me1-zeta.vercel.app/api/signup" element={<SignUp />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
       </div>
     </Router>
