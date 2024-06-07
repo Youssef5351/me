@@ -45,7 +45,8 @@ const Navbar = ({ theme, setTheme }) => {
         <a href="/">   
           <img src={logo} className="logo" />
         </a>  
-        <a href="/" className="signin">انشاء حساب</a>
+        <a href="/me1-zeta.vercel.app
+" className="signin">انشاء حساب</a>
         <a href="#About-Us" className="signin">معلومات عنا</a>
         <a href="#Location" className="signin"> الموقع</a>
         <div id="theme-switcher">
