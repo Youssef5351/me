@@ -80,12 +80,15 @@ a {
 }
 
 .signin.scrolled {
-    font-family: "Cairo";
-    padding: 8px 15px;
-    border-radius: 6px;
     color: var(--text-nav);
-    transition: .3s ease-in-out;
-    margin-left: -360px;
+}
+
+:root[data-theme='light'] .signin.scrolled {
+    color: black; /* Set color to black for light theme */
+}
+
+:root[data-theme='dark'] .signin.scrolled {
+    color: white; /* Set color to white for dark theme */
 }
 
 .signin:hover {
