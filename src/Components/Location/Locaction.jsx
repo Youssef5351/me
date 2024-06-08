@@ -39,7 +39,7 @@ const Location = () => {
             <br/>
             <span className="tkm">امام السبع ابار الغربية</span>
         </div>
-        <hr style={{ width: "50%", height:"3px", backgroundColor: "rgb(35 219 219)",border: "none", marginTop: "20px",marginLeft: "140px" }}/>
+        <hr style={{ width: "35%", height:"3px", backgroundColor: "rgb(35 219 219)",border: "none", marginTop: "20px",marginLeft: "115px" }}/>
         <div className="clock">
           <span className="tex">من السبت الي الخميس</span>
           <br />
