@@ -22,13 +22,17 @@ const Navbar = ({ theme, setTheme }) => {
   useEffect(() => {
     const handleScroll = () => {
       const navbar = document.getElementById("navbar");
+      const signinLinks = document.querySelectorAll(".signin");
+
       if (window.scrollY > 50) {
         navbar.classList.add("scrolled");
+        signinLinks.forEach(link => link.classList.add("scrolled"));
       } else {
         navbar.classList.remove("scrolled");
+        signinLinks.forEach(link => link.classList.remove("scrolled"));
       }
     };
-
+    
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
