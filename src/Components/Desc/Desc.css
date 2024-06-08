@@ -72,7 +72,7 @@
 
 .ger:hover {
   background-color: #72f2c7;
-  color: var(--button-text);
+  color: var(--button-background);
 }
 
 .happy {
