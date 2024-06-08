@@ -84,11 +84,11 @@ a {
 }
 
 :root[data-theme='light'] .signin.scrolled {
-    color: black; /* Set color to black for light theme */
+    color: white; /* Set color to black for light theme */
 }
 
 :root[data-theme='dark'] .signin.scrolled {
-    color: white; /* Set color to white for dark theme */
+    color: black; /* Set color to white for dark theme */
 }
 
 .signin:hover {
